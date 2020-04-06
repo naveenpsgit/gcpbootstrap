@@ -1,0 +1,17 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "helloworld"
+  },
+  "keywords": [],
+  "author": "nps",
+  "license": "ISC",
+  "description": ""
+}
