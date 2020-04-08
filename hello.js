@@ -1,8 +1,10 @@
 var express = require('express');
 var app = express();
+var os = require('os');
+var name = os.hostname();
 
 app.get('/', function (req, res) {
-   res.send('Hello World from GCE! update 1'); 
+   res.send(name); 
 });
 
 app.listen(8080, function () {
